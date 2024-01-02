@@ -1,4 +1,9 @@
 
+def check(cul, row):
+    global res
+    
+    V[cul][row]
+    check()
 
 for T in range(int(input())):
     
@@ -8,7 +13,13 @@ for T in range(int(input())):
     check = [0]*N
     res = 12312
     
-    # 재귀??    
+    
+    # 재귀??  너 나가있어 쓰레기야 ^^
+    # 재귀 풀거고 각 행렬을 확인하고, 재귀에서 통해 하나하나 확인하고 check배열에 그 값을 담아
+    # 최소값을 구한다. 
+    
+    
+         
 # 3
 # 3
 # 73 21 21
