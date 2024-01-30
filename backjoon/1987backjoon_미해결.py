@@ -7,5 +7,5 @@ R, C = map(int, input().split())
 board = [list(input().rstrip()) for _ in range(R)]
 
 # 알파벳 
-
+# 미해결
 print(board)
